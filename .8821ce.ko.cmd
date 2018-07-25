@@ -1,0 +1,1 @@
+cmd_/usr/src/rtl8821ce/8821ce.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /usr/src/rtl8821ce/8821ce.ko /usr/src/rtl8821ce/8821ce.o /usr/src/rtl8821ce/8821ce.mod.o ;  true
